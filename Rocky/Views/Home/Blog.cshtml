@@ -1,0 +1,13 @@
+﻿@model Rocky.Models.ViewModels.HomeVM
+
+@{
+    ViewData["Title"] = "Blog";
+}
+
+<h1>Blog Yazıları</h1>
+<hr>
+@foreach (var obj in Model.Blogs)
+{
+    <h2>@obj.Title</h2><br>
+    @Html.Raw(obj.Content)<hr style="margin:80px;">
+}

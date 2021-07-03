@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Bu dosya, Web projenizin yayımlama/paket işlemi tarafından kullanılıyor. MSBuild dosyasını düzenleyerek
+bu işlemin davranışını düzenleyebilirsiniz. Bununla ilgili daha fazla bilgi edinmek için https://go.microsoft.com/fwlink/?LinkID=208121 adresini ziyaret edin. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAVqiujumqoUqKSF178xjjigAAAAACAAAAAAAQZgAAAAEAACAAAACAlhpezBS10egrJ/M5knJCP+Q8v+6CLBnc8QgKziC4EQAAAAAOgAAAAAIAACAAAAAWPQIA+M5cMoLvSYavQ1Do8gpX25LFrP7DEU+Rgyyb5YAAAADs2HIjtsNfe/r40is9W53KgalQW7hX4FFW/aKR6fqoTAk+3ZGRqScTzxULzCtUuk4EbV+ZiFzD5Zema3/n0LB0kCjCnPb3lDB/bV/UupRikGp7/era+Bu9na1Qr3NlbmSiQbGa9x+qzY0yZp1LHEr4B+Cwa/g9u7pT3JdkQg0OYkAAAAAvRpokTVTKU8P6DKjpoVE43NBKUfEJsq36aP5aDNw+x6HLs/2r4+4Hdoo3d1M3Hue1k6/0g+1y5N1IVfv/2OH9</EncryptedPassword>
+    <History>True|2021-07-02T22:27:54.4035924Z;True|2021-07-03T01:22:19.0347500+03:00;True|2021-07-03T01:01:04.2291687+03:00;True|2021-07-02T13:51:07.0613166+03:00;True|2021-07-02T12:36:08.9081878+03:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:kitaplikserver.database.windows.net,1433%3bInitial Catalog=Rocky_db%3bUser Id=admin123%40kitaplikserver%3bPassword=Yonetim123.</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="Rocky.Data.ApplicationDbContext">
+      <Value>Data Source=tcp:kitaplikserver.database.windows.net,1433%3bInitial Catalog=Rocky_db%3bUser Id=admin123%40kitaplikserver%3bPassword=Yonetim123.</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
